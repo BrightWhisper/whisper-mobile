@@ -1,0 +1,19 @@
+/* 此文件用来添加公共样式 */
+
+/* 屏幕宽度在340px到410px之间时,基准尺寸使用20px */
+html {
+  font-size: 20px;
+}
+
+/* 屏幕宽度小于340px时，基准尺寸使用20px*/
+@media (max-width: 340px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 410x) {
+  html {
+    font-size: 22px;
+  }
+}
