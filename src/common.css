@@ -17,3 +17,24 @@ html {
     font-size: 22px;
   }
 }
+
+/* body默认样式 */
+body {
+  max-width: 640px;
+  margin: 0 auto;
+  background: #f8f8f8;
+  overflow-x: hidden;
+  /* ios让滚动带有弹性 */
+  -webkit-overflow-scrolling: touch;
+}
+
+/* 页面蒙版 */
+.wp-mask {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 300;
+}
