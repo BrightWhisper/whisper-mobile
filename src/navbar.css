@@ -24,11 +24,11 @@
 }
 /* 导航图标 */
 .wp-navbar > .navbar-item > .icon {
-  padding: 0.3rem 0 0.1rem;
+  padding: .3rem 0 .1rem;
   font-size: 1.1rem;
 }
 /* 导航名称 */
 .wp-navbar > .navbar-item > .name {
   display: block;
-  font-size: 0.5rem;
+  font-size: .5rem;
 }
